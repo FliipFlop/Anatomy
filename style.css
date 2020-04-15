@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 0%;
+}
+
+body {
+    background: lightgrey;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background: lightyellow;
+}
+
+.logo {
+    position: absolute;
+    border: 2px dotted gray;    
+    padding: 20px;
+    top: 10%;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    box-shadow: 3px 3px #888888;
+}
+
+.menu {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+
+li {
+    display: inline;
+    margin-left: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px #888888;
+    color: honeydew;
+}
+
+.content-red {
+    height: 750px;
+    background: tomato;
+    position: relative;
+}
+
+.content-red h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.content-green {
+    height: 750px;
+    background: lightgreen;
+    position: relative;
+}
+
+.content-green h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.content-blue {
+    height: 750px;
+    background: lightsteelblue;
+    position: relative;
+}
+
+.content-blue h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.content-ft {
+    height: 45px;
+    background: lightsalmon;
+    position: relative;
+}
+
+.ft-left {
+    top: 30%;
+    position: absolute;
+}
+
+.ft-right {
+    top: 30%;
+    right: 0;
+    position: absolute;
+}
